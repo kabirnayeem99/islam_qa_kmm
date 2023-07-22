@@ -1,7 +1,9 @@
 <br />
 <div align="center">
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/T26H0zQ/ic-launcher.png" alt="ic-launcher" border="0" width="120" height="120"></a>
+<a href="https://imgbb.com/">
+  <img src="https://i.ibb.co/T26H0zQ/ic-launcher.png" alt="ic-launcher" border="0" width="120" height="120">
+</a>
 
 <h2 align="center">IslamQA iOS & Android (Unofficial)</h3>
 
@@ -31,6 +33,7 @@ For those unfamiliar with IslamQA.org, it serves as a distinguished repository o
    ```shell
    git clone https://github.com/kabirnayeem99/islam_qa_org_android.git
    ```
+
 2) Open the project in Android Studio (`Android Studio Flamingo | 2022.2.1 or up`).
 3) Run the project by clicking on `Run` button.
 
@@ -66,7 +69,7 @@ copyright notices. See `LICENSE.txt` for more information.
 ## 📮 Contact
 
 👤 **Naimul Kabir**<br/>
-📧 Email: kabirnayeem.99@gmail.com<br/>
+📧 Email: <kabirnayeem.99@gmail.com><br/>
 💼 LinkedIn: [@kabirnayeem99](https://www.linkedin.com/in/kabirnayeem99/)
 
 ## 💌 Acknowledgments
@@ -75,10 +78,8 @@ A special thanks to the following contributors and libraries:
 
 * **[skrape.it](https://github.com/skrapeit/skrape.it)**: Their invaluable tool for on-device web
   scraping.
-* [Shimmer Effect for Android](https://facebook.github.io/shimmer-android/): Elegant loading
-  animations.
-* [Timber](https://github.com/JakeWharton/timber): Sophisticated logging library that greatly aids
-  in debugging and development.
-* Room: For data storage and caching.
-
-
+* **[SwiftSoup](https://github.com/scinfu/SwiftSoup)**: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)
+* **[Napier](https://github.com/AAkira/Napier)**: Logging library for Kotlin Multiplatform.
+* **[SQLDelight](https://github.com/cashapp/sqldelight)**: Generates typesafe Kotlin APIs from SQL.
+* **[Multiplatform connectivity status](https://github.com/ln-12/multiplatform-connectivity-status)**: A Kotlin multiplatform mobile library to monitor the connectivity status of the device.
+* **[Koin](https://github.com/InsertKoinIO/koin)**: pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform.
