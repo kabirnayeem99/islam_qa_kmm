@@ -78,8 +78,11 @@ A special thanks to the following contributors and libraries:
 
 * **[skrape.it](https://github.com/skrapeit/skrape.it)**: Their invaluable tool for on-device web
   scraping.
-* **[SwiftSoup](https://github.com/scinfu/SwiftSoup)**: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)
+* **[SwiftSoup](https://github.com/scinfu/SwiftSoup)**: Pure Swift HTML Parser, with best of DOM,
+  CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)
 * **[Napier](https://github.com/AAkira/Napier)**: Logging library for Kotlin Multiplatform.
 * **[SQLDelight](https://github.com/cashapp/sqldelight)**: Generates typesafe Kotlin APIs from SQL.
-* **[Multiplatform connectivity status](https://github.com/ln-12/multiplatform-connectivity-status)**: A Kotlin multiplatform mobile library to monitor the connectivity status of the device.
-* **[Koin](https://github.com/InsertKoinIO/koin)**: pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform.
+* **[Multiplatform connectivity status](https://github.com/ln-12/multiplatform-connectivity-status)
+  **: A Kotlin multiplatform mobile library to monitor the connectivity status of the device.
+* **[Koin](https://github.com/InsertKoinIO/koin)**: pragmatic lightweight dependency injection
+  framework for Kotlin & Kotlin Multiplatform.

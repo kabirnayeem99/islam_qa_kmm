@@ -1,20 +1,20 @@
 buildscript {
+    repositories {
+        mavenCentral()
+    }
+
     dependencies {
-        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("org.jetbrains.kotlinx:atomicfu-gradle-plugin:0.21.0")
     }
 }
-
-
-
-plugins {
-    //trick: for the same plugin versions in all sub-modules
-    id("com.android.application").version("8.0.2").apply(false)
-    id("com.android.library").version("8.0.2").apply(false)
-    kotlin("android").version("1.9.0").apply(false)
-    kotlin("multiplatform").version("1.9.0").apply(false)
+allprojects {
+    apply(plugin = "kotlinx-atomicfu")
 }
-
-
-tasks.register("clean", Delete::class) {
-    delete(rootProject.buildDir)
+plugins {
+    // this is necessary to avoid the plugins to be loaded multiple times
+    // in each subproject's classloader
+    kotlin("multiplatform").apply(false)
+    id("com.android.application").apply(false)
+    id("com.android.library").apply(false)
+    id("org.jetbrains.compose").apply(false)
 }
