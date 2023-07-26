@@ -4,12 +4,13 @@ plugins {
 }
 
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class) kotlin {
+    jvmToolchain(17)
     targetHierarchy.default()
 
     android {
         compilations.all {
             kotlinOptions {
-                jvmTarget = "11"
+                jvmTarget = "17"
             }
         }
     }
