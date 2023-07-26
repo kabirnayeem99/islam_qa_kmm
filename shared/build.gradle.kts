@@ -5,7 +5,9 @@ plugins {
     id("org.jetbrains.compose")
 }
 
+
 kotlin {
+
     android()
 
     iosX64()
@@ -55,6 +57,7 @@ kotlin {
 }
 
 android {
+
     compileSdk = (findProperty("android.compileSdk") as String).toInt()
     namespace = "io.github.kabirnayeem99.common"
 
